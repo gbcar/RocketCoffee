@@ -1,0 +1,75 @@
+/* seletor universal para remover margens e preenchimentos */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ffedd5;
+  font-family: "Roboto", sans-serif;
+}
+ul {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+.price {
+  font-family: "Roboto Serif", serif;
+  text-transform: uppercase;
+  color: #202c2a;
+}
+header {
+  padding: 32px 0; /* preenchimento interno em cima e embaixo */
+  text-align: center; /* alinhamento de texto centralizado */
+}
+header,
+section {
+  max-width: 300px; /* largura máxima */
+  margin: 0 auto; /* posiciona o elemento no centro */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+}
+header h1 {
+  margin-bottom: 4px;
+  font-size: 28px;
+  line-height: 33px;
+}
+header h1 span {
+  color: #995000;
+}
+header p {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  line-height: 16px;
+}
+section {
+  margin-bottom: 24px;
+}
+section h2 {
+  background-color: #fed7aa;
+  margin-bottom: 24px;
+  padding: 8px 16px;
+  text-align: center;
+  font-size: 18px;
+}
+ul li {
+  margin-bottom: 16px;
+  display: flex; /* posiciona os elementos lado a lado */
+}
+li .details {
+  max-width: 230px;
+}
+.details h3 {
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 19px;
+}
+.details p {
+  color: rgba(0, 0, 0, 0.6); /* transparência de 60% */
+  font-size: 14px;
+  line-height: 21px;
+}
+.description {
+}
+.price {
+}
